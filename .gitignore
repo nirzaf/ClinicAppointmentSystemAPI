@@ -1,0 +1,13 @@
+*.vs
+*.user
+*.cache
+bin/
+obj/
+*.suo        # 'user' settings like 'which file is open in Visual Studio'
+*.ncb        # Used for debugging
+*.user
+*.ccscc      # Used for versioning
+*.cache
+*.bak
+*.orig
+Thumbs.db
