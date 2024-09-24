@@ -16,7 +16,7 @@ namespace Clinic_Appointment_System_API.Entities
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-        public Appointment? Appointment { get; set; }
+        //public Appointment? Appointment { get; set; } This property is commented out. If it were included, it would imply that a Patient can have only one Appointment, which contradicts the existing property:
         public virtual List<Appointment> Appointments { get; set; }
 
     }

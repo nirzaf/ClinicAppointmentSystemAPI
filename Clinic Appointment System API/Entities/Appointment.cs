@@ -8,7 +8,7 @@ public class Appointment
     public int AppointmentId { get; set; }
     [Required]
     public int PatientId { get; set; }
-    public Patient? Patient { get; set; }
+    //public Patient? Patient { get; set; } This property is commented out. If it were included, it would create a circular reference between Appointment and Patient. The Patient class already has a collection of Appointment objects: public virtual List<Appointment> Appointments { get; set; }
     [Required]
     public int DoctorId { get; set; }
     public required Doctor Doctor { get; set; }
