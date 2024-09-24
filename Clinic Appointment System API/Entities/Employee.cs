@@ -1,4 +1,4 @@
-﻿namespace WebAPI1.Controllers.Entities
+﻿namespace Clinic_Appointment_System_API.Entities
 {
     public class Employee
     {
